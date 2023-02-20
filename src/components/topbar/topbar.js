@@ -8,11 +8,12 @@ export default function Topbar() {
   return (
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
     <Container>
-      <Navbar.Brand href="#home">CyberHen-Vulnerability Management</Navbar.Brand>
+      <Navbar.Brand href="#home"> <h3>CyBr</h3>Vulnerability Management</Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="me-auto">
           <Nav.Link href="/projects">Projects</Nav.Link>
+          <Nav.Link href="/createTask">Create Task</Nav.Link>
           <Nav.Link href="/reports">Reports</Nav.Link>
         </Nav>
         <Nav>
